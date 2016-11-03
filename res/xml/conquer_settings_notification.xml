@@ -36,4 +36,11 @@
         android:summary="@string/enable_clear_all_button_summary"
         android:defaultValue="true" />
 
+    <ListPreference
+        android:key="heads_up_snooze_time"
+        android:title="@string/heads_up_snooze_title"
+        android:entries="@array/heads_up_snooze_entries"
+        android:entryValues="@array/heads_up_snooze_values"
+        android:persistent="false" />
+
 </PreferenceScreen>
