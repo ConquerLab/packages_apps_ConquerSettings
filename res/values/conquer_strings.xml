@@ -297,4 +297,12 @@
     <string name="themes_summary">Theming section</string>
     <string name="accent_color">Accent color</string>
     <string name="accent_summary">Choose your favorite accent color</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_category">Settings Dashboard</string>
+    <string name="dashboard_conditions_title">Condition cards</string>
+    <string name="dashboard_conditions_summary">Show condition cards on the dashboard</string>
+    <string name="dashboard_suggestions_title">Suggestion cards</string>
+    <string name="dashboard_suggestions_summary">Show suggestion cards on the dashboard</string>
+
 </resources>
