@@ -39,4 +39,15 @@
         settings:interval="5"
         android:defaultValue="255" />
 
+<PreferenceCategory
+            android:key="powermenu"
+            android:title="@string/powermenu_title">
+
+        <com.conquer.settings.preferences.GlobalSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
