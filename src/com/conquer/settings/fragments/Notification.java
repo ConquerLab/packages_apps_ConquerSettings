@@ -37,7 +37,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.conquer.settings.R;
 
-public class Notification extends SettingsPreferenceFragment {
+public class Notification extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener {
 
     private Preference mChargingLeds;
 	
