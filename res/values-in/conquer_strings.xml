@@ -94,7 +94,7 @@
     <string name="dev3_summary">Moderator grup, pengelola sumber</string>
   
 	  <!-- Links -->
-   	<string name="links_category">Link</string>
+    <string name="links_category">Link</string>
     <string name="github">GitHub</string>
     <string name="github_summary">Lihat kode sumber kmai</string>
     <string name="website">Website</string>
@@ -209,5 +209,8 @@
     <string name="network_traffic_autohide_threshold_title">Batas aktivitas otomatis disembunyikan (KB/s)</string>
     <string name="network_traffic_hidearrow">Sembunyiokan panah</string>
     <string name="network_traffic_hidearrow_summary">Sembunyikan panah pada indikator</string>
+
+    <!-- SystemUI Tuner -->
+    <string name="sysui_tuner_title">Pengaturan SystemUI</string>
 
 </resources>
