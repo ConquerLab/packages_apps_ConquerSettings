@@ -24,12 +24,6 @@
         android:summary="@string/notification_sound_vib_screen_on_summary"
         android:defaultValue="true" />
 
-    <Preference
-        android:key="ambient_light_settings"
-        android:fragment="com.conquer.settings.fragments.AmbientLightSettings"
-        android:title="@string/ambient_light_settings_title"
-        android:summary="@string/ambient_light_settings_summary" />
-
     <com.conquer.settings.preferences.SystemSettingSwitchPreference
         android:key="dismiss_all_button"
         android:title="@string/enable_clear_all_button"
