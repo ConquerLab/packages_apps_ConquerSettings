@@ -213,4 +213,8 @@
     <!-- SystemUI Tuner -->
     <string name="sysui_tuner_title">Pengaturan SystemUI</string>
 
+        <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Ikon VoLTE</string>
+    <string name="volte_icon_summary">Tampilkan ikon VoLTE di Bar Status</string>
+
 </resources>

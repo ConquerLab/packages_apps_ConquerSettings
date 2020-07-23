@@ -269,4 +269,8 @@
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">Enable advanced reboot options in powermenu</string>
 
+        <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon on Status Bar</string>
+
 </resources>
