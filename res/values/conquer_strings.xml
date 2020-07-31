@@ -285,4 +285,16 @@
     <string name="media_art_title">Media artwork</string>
     <string name="media_art_summary">Show media cover art as the lockscreen background</string>
 
+    <string name="themes_manager_title">Theme Manager</string>
+    <string name="theme_user_interfaces_category">User Interface</string>
+    <string name="theme_customization_sysui_icon_title">QS icons</string>
+    <string name="theme_customization_android_icon_title">StatusBar icons</string>
+    <string name="theme_customization_settings_icon_title">Settings icons</string>
+    <string name="theme_customization_icon_shape_title">Icon Shape</string>
+    <string name="theme_customization_color_title">Theme Color</string>
+    <string name="theme_customization_font_title">System Font</string>
+    <string name="themes_color">Theming</string>
+    <string name="themes_summary">Theming section</string>
+    <string name="accent_color">Accent color</string>
+    <string name="accent_summary">Choose your favorite accent color</string>
 </resources>
