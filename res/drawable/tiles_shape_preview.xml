@@ -14,7 +14,7 @@
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
                             android:height="44dp"
                             android:width="44dp"
-                            android:color="@color/preview_qs_disabled"/>
+                            android:color="#6BAEFF"/>
                     </item>
                     <item android:drawable="@drawable/ic_preview_wifi"
                         android:width="26.4dp"
@@ -28,7 +28,7 @@
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
                             android:height="44dp"
                             android:width="44dp"
-                            android:color="@color/preview_qs_disabled"/>
+                            android:color="#6BAEFF"/>
                     </item>
                     <item android:drawable="@drawable/ic_preview_bluetooth"
                         android:width="26.4dp"
@@ -46,7 +46,7 @@
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
                             android:height="44dp"
                             android:width="44dp"
-                            android:color="@color/preview_qs_disabled"/>
+                            android:color="#6BAEFF"/>
                     </item>
                     <item android:drawable="@drawable/ic_preview_data"
                         android:width="26.4dp"
@@ -60,7 +60,7 @@
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
                             android:height="44dp"
                             android:width="44dp"
-                            android:color="@color/preview_qs_disabled"/>
+                            android:color="#6BAEFF"/>
                     </item>
                     <item android:drawable="@drawable/ic_preview_airplane"
                         android:width="26.4dp"
