@@ -297,4 +297,6 @@
     <string name="themes_summary">Theming section</string>
     <string name="accent_color">Accent color</string>
     <string name="accent_summary">Choose your favorite accent color</string>
+    <string name="clock_style_title">Clock Styles</string>
+    <string name="clock_style_summary">Customize your lockscreen clock</string>
 </resources>
