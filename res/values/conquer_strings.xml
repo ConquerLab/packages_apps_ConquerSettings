@@ -256,7 +256,8 @@
     <string name="heads_up_time_out_10sec">10 seconds</string>
 
     <!-- SystemUI Tuner -->
-    <string name="sysui_tuner_title">SystemUI Tuner</string>
+    <string name="sysui_tuner_title">Status Bar icons</string>
+    <string name="sysui_tuner_summary">Arrange the icons that appear on the Status Bar</string>
 
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>  

@@ -18,12 +18,12 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 	
-    <Preference
-            android:title="@string/sysui_tuner_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.TunerActivity" />
-    </Preference>
+    <PreferenceScreen
+        android:key="sysui_tuner"
+        android:title="@string/sysui_tuner_title"
+        android:summary="@string/sysui_tuner_summary">
+        <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+    </PreferenceScreen>
 
     <com.conquer.settings.preferences.SystemSettingSwitchPreference
         android:key="show_fourg_icon"
