@@ -211,9 +211,10 @@
     <string name="network_traffic_hidearrow_summary">Sembunyikan panah pada indikator</string>
 
     <!-- SystemUI Tuner -->
-    <string name="sysui_tuner_title">Pengaturan SystemUI</string>
-
-        <!-- Show VoLTE icon on statusbar -->
+    <string name="sysui_tuner_title">Ikon Status Bar</string>
+    <string name="sysui_tuner_summary">Atur ikon-ikon yang muncul di Status Bar</string>
+  
+    <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">Ikon VoLTE</string>
     <string name="volte_icon_summary">Tampilkan ikon VoLTE di Bar Status</string>
 
