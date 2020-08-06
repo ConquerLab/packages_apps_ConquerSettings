@@ -16,5 +16,6 @@
 
         <!-- Preview Icons -->
         <color name="preview_container_border">#14FFFFFF</color>
+        <color name="preview_qs_disabled">#353535</color>
 
 </resources>
