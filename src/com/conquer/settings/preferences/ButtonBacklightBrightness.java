@@ -41,7 +41,7 @@ import androidx.preference.PreferenceManager;
 import com.android.settings.R;
 
 import static com.conquer.internal.util.hwkeys.DeviceKeysConstants.*;
-import com.conquer.settings.preference.CustomDialogPreferenceCompat;
+import com.conquer.settings.preferences.CustomDialogPreferenceCompat;
 
 public class ButtonBacklightBrightness extends CustomDialogPreferenceCompat<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {

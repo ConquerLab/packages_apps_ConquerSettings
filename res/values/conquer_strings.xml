@@ -24,6 +24,8 @@
     <string name="ui_summary">Customize your device interface</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Status bar customization options</string>
+    <string name="buttons_title">Buttons</string>
+    <string name="buttons_summary">Hardware customization options</string>
     <string name="lockscreen_title">Lockscreen</string>
     <string name="lockscreen_summary">Lockscreen customization options</string>
     <string name="notification_title">Notification</string>
@@ -304,9 +306,6 @@
     <string name="dashboard_conditions_summary">Show condition cards on the dashboard</string>
     <string name="dashboard_suggestions_title">Suggestion cards</string>
     <string name="dashboard_suggestions_summary">Show suggestion cards on the dashboard</string>
-
-    <!-- Generic stuff used everywhere -->
-    <string name="reset">Reset</string>
 
     <!-- Button settings -->
     <string name="buttons_settings_title">Buttons</string>

@@ -45,13 +45,12 @@ import com.android.settings.Utils;
 import com.android.settingslib.search.SearchIndexable;
 
 import static com.conquer.internal.util.hwkeys.DeviceKeysConstants.*;
-import com.conquer.settings.preference.*;
+import com.conquer.settings.preferences.*;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
-@SearchIndexable
 public class ButtonsSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
     private static final String TAG = "ButtonSettings";
 
@@ -389,21 +388,4 @@ public class ButtonsSettings extends SettingsPreferenceFragment implements OnPre
         onDialogShowing();
     }
 
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-                @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(
-                        Context context, boolean enabled) {
-                    final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.conquer_settings_buttons;
-                    return Arrays.asList(sir);
-                }
-
-                @Override
-                protected boolean isPageSearchEnabled(Context context) {
-                    // All rows in this screen can lead to a different page, so suppress everything
-                    // from this page to remove duplicates.
-                    return false;
-                }
-            };
 }
